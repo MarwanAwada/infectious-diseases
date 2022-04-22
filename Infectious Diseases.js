@@ -105,7 +105,7 @@ function Fever() {
 		                document.getElementById("Diagnose").style.visibility = "visible";}
 	                else{
 	                	document.getElementById("Diagnose").style.visibility = "visible";
-		                document.getElementById("Diagnose").textContent = "Предоставленной информации недостаточно для постановки диагноза типичных форм указанных выше заболеваний, проведите пожалуйста, лабораторный анализ";}
+		                document.getElementById("Diagnose").textContent = "Предоставленной информации недостаточно для постановки диагноза типичных форм указанных выше заболеваний, проведите пожалуйста лабораторный анализ";}
 		            }
 
 	}
