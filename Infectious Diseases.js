@@ -66,7 +66,7 @@ function Fever() {
 		    document.getElementById("Diagnose").textContent = "На основании выбранных симптомов, Ваш предполагаемый диагноз - Норовирусная инфекция";
 		    document.getElementById("Diagnose").style.visibility = "visible"; }
 	    else {
-		    if (document.getElementById("Fever.3").checked 
+		    if ( (document.getElementById("Fever.3").checked || document.getElementById("Fever.2").checked)
 		        && document.getElementById("Intoxication.3").checked 
 		        && document.getElementById("Stool.2").checked 
 		        && (document.getElementById("Nausea.0").checked
@@ -84,7 +84,7 @@ function Fever() {
 		        if (document.getElementById("Intoxication.3").checked
 			        && !document.getElementById("Fever.0").checked 
 			        && !document.getElementById("Fever.1").checked 
-		        	&& !document.getElementById("Fever.2").checked  
+		        	// && !document.getElementById("Fever.2").checked  
 	            	&& document.getElementById("Stool.3").checked 
 	            	&& document.getElementById("Nausea.1").checked 
 	            	&& document.getElementById("Vomiting.3").checked 
