@@ -35,7 +35,7 @@ header {
 .intoxication-s , .dyspeptic-s, .Diagnose {
 	padding: 15px 30px;
 }
-.Fever , .Intoxication , .Diarrhea , .Defecation, .Color, .Odour, .Impurities, .Stool , .Vomiting , .Nausea , .Abdominal.pain , .Tenesmus, .Dehydration {
+.Fever ,.Intoxication , .Diarrhea , .Stool , .Vomiting , .Nausea , .Abdominal.pain , .Dehydration {
 	line-height: 20px;
 }
 
@@ -75,7 +75,7 @@ footer {
 
 
 @media screen and (max-width: 480px){
-	.Fever , .Intoxication , .Diarrhea , .Defecation, .Color, .Odour, .Impurities, .Stool , .Vomiting , .Nausea , .Abdominal.pain , .Tenesmus, .Dehydration {
+	.Fever ,.Intoxication , .Diarrhea , .Stool , .Vomiting , .Nausea , .Abdominal.pain , .Dehydration,  {
 	line-height: 35px;}
 
 }
