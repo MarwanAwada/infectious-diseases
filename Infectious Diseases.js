@@ -127,8 +127,10 @@ function Fever() {
 			        && !document.getElementById("Fever.1").checked 
 			        && (document.getElementById("Defecation.2").checked
 			        || document.getElementById("Defecation.3").checked)
-			        && document.getElementById("Color.2").checked
-			        && document.getElementById("Odour.0").checked
+			        && (document.getElementById("Color.0").checked
+			        || document.getElementById("Color.2").checked)
+			        && (document.getElementById("Odour.0").checked
+			        || document.getElementById("Odour.1").checked)
 			        && (document.getElementById("Impurities.0").checked
 		            || document.getElementById("Impurities.1").checked)
 	            	&& document.getElementById("Stool.2").checked 
